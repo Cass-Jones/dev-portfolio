@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat:wght@300&display=swap");
+
+:root {
+  /* Color Theme Swatches in Hex */
+  --hex-1: #3e3e40;
+
+  --hex-2: #bdbdbf;
+
+  --hex-3: #f0f0f2;
+
+  --hex-4: #64758c;
+
+  --hex-5: #0d0d0d;
+}
+
+* {
+  background-color: var(--hex-3);
+  color: var(--hex-1);
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Condensed", sans-serif;
+}
