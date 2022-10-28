@@ -28,3 +28,42 @@ h5,
 h6 {
   font-family: "Barlow Condensed", sans-serif;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+button {
+  width: 5rem;
+  border: none;
+  min-height: 30px;
+}
+
+button:hover {
+  box-shadow: #0d0d0d 0px 5px 10px;
+  border-radius: 10px;
+}
+
+.nextSection {
+  position: absolute;
+  bottom: 30px;
+  animation: bouncing 1s infinite;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+
+@keyframes bouncing {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 20px;
+  }
+}
