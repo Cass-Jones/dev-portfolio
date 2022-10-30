@@ -32,33 +32,35 @@
     </section>
 
     <section id="about">
-      <h1>About me</h1>
-      <p>
-        I'm a self-taught, on-the-job trained developer with a broad scope of
-        experience. My primary training has come from working as a Solutions
-        Architect for Spyre. As a Solutions Architect I was responsible for
-        scoping, planning, building and maintaining professional services for
-        Spyre's customers. These solutions ranged widely from custom
-        integrations with APIs and foreign databases, to custom front-end
-        development, the needs of our customers dictated the areas and skills I
-        needed to learn.
-      </p>
+      <div class="2-col">
+        <h1>About me</h1>
+        <p>
+          I'm a self-taught, on-the-job trained developer with a broad scope of
+          experience. My primary training has come from working as a Solutions
+          Architect for Spyre. As a Solutions Architect I was responsible for
+          scoping, planning, building and maintaining professional services for
+          Spyre's customers. These solutions ranged widely from custom
+          integrations with APIs and foreign databases, to custom front-end
+          development, the needs of our customers dictated the areas and skills
+          I needed to learn.
+        </p>
 
-      <p>
-        I'm a born problem solver, learner, and collaborator. I can't let a pun
-        fall by the wayside without being said.
-      </p>
+        <p>
+          I'm a born problem solver, learner, and collaborator. I can't let a
+          pun fall by the wayside without being said.
+        </p>
 
-      <p>
-        Since July 2021 I've been traveling around the United States in and RV
-        with my wife, son, and cat. So far we've been to 23 states
-      </p>
+        <p>
+          Since July 2021 I've been traveling around the United States in and RV
+          with my wife, son, and cat. So far we've been to 23 states
+        </p>
 
-      <h1>Things I like to do</h1>
-      <p>I'm currently learning: C#</p>
-      <p>I'm currently reading: The Wisdom of Insecurity by Alan Watts</p>
-      <p>I'm currently building: Postgres Database for Bikelopedia</p>
-      <p>I'm currently solving: HackerRank problem #x</p>
+        <h1>Things I like to do</h1>
+        <p>I'm currently learning: C#</p>
+        <p>I'm currently reading: The Wisdom of Insecurity by Alan Watts</p>
+        <p>I'm currently building: Postgres Database for Bikelopedia</p>
+        <p>I'm currently solving: HackerRank problem #x</p>
+      </div>
       <div class="nextSection">
         <a href="#projects">
           <button>
@@ -69,13 +71,68 @@
     </section>
 
     <section class="projects" id="projects">
-      <h1>Things I've Made</h1>
-      <p>Bikelopedia</p>
-      <p>Breadit</p>
-      <p>D2 Chrome Extension</p>
-      <p>RS Skill Calc</p>
-      <p>Games</p>
-      <p>Chrome Extensions</p>
+      <div class="project-deck">
+        <h1 class="deck-header">Things I've Made</h1>
+        <div class="project-card">
+          <h3 class="project-title">Bikelopedia</h3>
+          <p class="project-stack">Stack</p>
+          <ul class="stack-list">
+            <li class="stack-item">Next.JS</li>
+            <li class="stack-item">Material UI</li>
+            <li class="stack-item">GraphQL</li>
+            <li class="stack-item">Postgres</li>
+            <li class="stack-item">Vercel</li>
+          </ul>
+          <p class="description">
+            I love browsing and looking at pictures of mountain bikes. I noticed
+            that there wasn't a single site where I could compare lots of
+            different brands of bike so I created Bikelopedia, a site dedicated
+            to collecting all the best bikes on the market in one place to
+            compare, contrast, or just stare in envy at the gorgeous machines.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">Breadit</h3>
+          <p class="project-stack">Stack</p>
+          <ul class="stack-list">
+            <li class="stack-item">React</li>
+            <li class="stack-item">SCSS</li>
+            <li class="stack-item">Express API</li>
+            <li class="stack-item">MongoDB</li>
+          </ul>
+          <p class="description">
+            A Reddit clone dedicated to bread, pun very much intended. Feel free
+            to create an account and post your best sourdough tips and tricks
+            that I know you learned during Covid quarantine!
+          </p>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">D2 Chrome Extension</h3>
+          <p class="project-stack">Stack</p>
+          <ul class="stack-list">
+            <li class="stack-item">React</li>
+            <li class="stack-item">Bootstrap</li>
+            <li class="stack-item">Destiny 2 API</li>
+          </ul>
+          <p class="description">
+            A chrome extension used to quickly check daily events and activities
+            happening in the popular online multiplay looter-shooter Destiny 2.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3 class="project-title">RS Skill Calc</h3>
+          <p class="project-stack">Stack</p>
+          <ul class="stacklist">
+            <li class="stack-item">C#</li>
+            <li class="stack-item">Razor Pages</li>
+            <li class="stack-item">Runescape API</li>
+          </ul>
+          <p class="description">
+            A skill calculator app for the MMORPG Runescape.
+          </p>
+        </div>
+        <p>Hipster Ipsum VS Code Extension</p>
+      </div>
       <div class="nextSection">
         <a href="#skills">
           <button>
@@ -86,60 +143,112 @@
     </section>
 
     <section class="skills" id="skills">
-      <h1>Language Comprehension</h1>
-      <p><i class="devicon-javascript-plain colored"></i> Javascript ****</p>
-      <p><i class="devicon-csharp-line colored"></i> C# **</p>
-      <p><i class="devicon-rust-plain colored"></i> Rust *</p>
-      <p><i class="devicon-python-plain colored"></i> Python *</p>
-      <p><i class="devicon-microsoftsqlserver-plain colored"></i> SQL ***</p>
+      <div class="languages">
+        <h1>Language Comprehension</h1>
+        <p>
+          <i class="devicon-javascript-plain colored"></i> Javascript
+          <span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </span>
+        </p>
+        <p>
+          <i class="devicon-csharp-line colored"></i> C#
+          <span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </span>
+        </p>
+        <p>
+          <i class="devicon-rust-plain colored"></i> Rust
+          <span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </span>
+        </p>
+        <p>
+          <i class="devicon-python-plain colored"></i> Python
+          <span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </span>
+        </p>
+        <p>
+          <i class="devicon-microsoftsqlserver-plain colored"></i> SQL
+          <span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </span>
+        </p>
+      </div>
+      <div class="skill-deck">
+        <h1 class="deck-header">Tools I've worked with</h1>
 
-      <h1>Tools I've worked with</h1>
+        <div class="skill-card">
+          <h3 class="card-title">Frontend</h3>
+          <h5 class="card-subtitle">Structure</h5>
+          <p class="card-item">HTML</p>
+          <p class="card-item">React</p>
+          <p class="card-item">Next.JS</p>
+          <p class="card-item">.NET Razer</p>
+        </div>
 
-      <h3>Frontend</h3>
-      <h5>Structure</h5>
-      <p>HTML</p>
-      <p>React</p>
-      <p>Next.JS</p>
-      <p>.NET Razer</p>
+        <div class="skill-card">
+          <h5 class="card-title">Styling</h5>
+          <p class="card-item">CSS</p>
+          <p class="card-item">SCSS</p>
+          <p class="card-item">Boostrap</p>
+          <p class="card-item">Tailwind</p>
+          <p class="card-item">Material UI</p>
+        </div>
+        <h3>Databases</h3>
+        <p>MS SQL Server</p>
+        <p>Postgres DB</p>
+        <p>Azure Cosmos DB</p>
 
-      <h5>Styling</h5>
-      <p>CSS</p>
-      <p>SCSS/SASS</p>
-      <p>Boostrap V4.0+</p>
-      <p>Material UI</p>
+        <h3>Services</h3>
+        <p>AWS</p>
+        <p>Azure</p>
+        <p>GraphQL</p>
+        <p>Node.js</p>
 
-      <h3>Databases</h3>
-      <p>MS SQL Server</p>
-      <p>Postgres DB</p>
-      <p>Azure Cosmos DB</p>
+        <h3>Testing</h3>
+        <p>Mocha</p>
+        <p>Jest</p>
+        <p>Cypress</p>
 
-      <h3>Services</h3>
-      <p>AWS</p>
-      <p>Azure</p>
-      <p>GraphQL</p>
-      <p>Node.js</p>
+        <h3>Dev Tools</h3>
+        <p>VS Code</p>
+        <p>Visual Studio</p>
+        <p>Postman</p>
+        <p>Insomnia</p>
+        <p>Github</p>
+        <p>Bitbucket</p>
+        <p>Workfront</p>
+        <p>Smartsheet</p>
+        <p>Jira</p>
+        <p>Confluence</p>
 
-      <h3>Testing</h3>
-      <p>Mocha</p>
-      <p>Jest</p>
-      <p>Cypress</p>
-
-      <h3>Dev Tools</h3>
-      <p>VS Code</p>
-      <p>Visual Studio</p>
-      <p>Postman</p>
-      <p>Insomnia</p>
-      <p>Github</p>
-      <p>Bitbucket</p>
-      <p>Workfront</p>
-      <p>Smartsheet</p>
-      <p>Jira</p>
-      <p>Confluence</p>
-
-      <h3>Communication</h3>
-      <p>Microsoft Teams</p>
-      <p>Slack</p>
-      <p>Discord</p>
+        <h3>Communication</h3>
+        <p>Microsoft Teams</p>
+        <p>Slack</p>
+        <p>Discord</p>
+      </div>
       <div class="nextSection">
         <a href="#contactMe">
           <button>
