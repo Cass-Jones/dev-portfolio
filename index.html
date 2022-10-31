@@ -156,6 +156,16 @@
           </span>
         </p>
         <p>
+          <i class="devicon-typescript-plain colored"></i> Typescript
+          <span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </span>
+        </p>
+        <p>
           <i class="devicon-csharp-line colored"></i> C#
           <span>
             <i class="fa-solid fa-star"></i>
@@ -209,45 +219,56 @@
         </div>
 
         <div class="skill-card">
-          <h5 class="card-title">Styling</h5>
+          <h3 class="card-title">Styling</h3>
           <p class="card-item">CSS</p>
           <p class="card-item">SCSS</p>
           <p class="card-item">Boostrap</p>
           <p class="card-item">Tailwind</p>
           <p class="card-item">Material UI</p>
         </div>
-        <h3>Databases</h3>
-        <p>MS SQL Server</p>
-        <p>Postgres DB</p>
-        <p>Azure Cosmos DB</p>
 
-        <h3>Services</h3>
-        <p>AWS</p>
-        <p>Azure</p>
-        <p>GraphQL</p>
-        <p>Node.js</p>
+        <div class="skill-card">
+          <h3 class="card-title">Databases</h3>
+          <p class="card-item">MS SQL Server</p>
+          <p class="card-item">Postgres DB</p>
+          <p class="card-item">Azure Cosmos DB</p>
+        </div>
 
-        <h3>Testing</h3>
-        <p>Mocha</p>
-        <p>Jest</p>
-        <p>Cypress</p>
+        <div class="skill-card">
+          <h3 class="card-title">Services</h3>
+          <p class="card-item">AWS</p>
+          <p class="card-item">Azure</p>
+          <p class="card-item">GraphQL</p>
+          <p class="card-item">Node.js</p>
+        </div>
 
-        <h3>Dev Tools</h3>
-        <p>VS Code</p>
-        <p>Visual Studio</p>
-        <p>Postman</p>
-        <p>Insomnia</p>
-        <p>Github</p>
-        <p>Bitbucket</p>
-        <p>Workfront</p>
-        <p>Smartsheet</p>
-        <p>Jira</p>
-        <p>Confluence</p>
+        <div class="skill-card">
+          <h3 class="card-title">Testing</h3>
+          <p class="card-item">Mocha</p>
+          <p class="card-item">Jest</p>
+          <p class="card-item">Cypress</p>
+        </div>
 
-        <h3>Communication</h3>
-        <p>Microsoft Teams</p>
-        <p>Slack</p>
-        <p>Discord</p>
+        <div class="skill-card">
+          <h3 class="card-title">Dev Tools</h3>
+          <p class="card-item">VS Code</p>
+          <p class="card-item">Visual Studio</p>
+          <p class="card-item">Postman</p>
+          <p class="card-item">Insomnia</p>
+          <p class="card-item">Github</p>
+          <p class="card-item">Bitbucket</p>
+          <p class="card-item">Workfront</p>
+          <p class="card-item">Smartsheet</p>
+          <p class="card-item">Jira</p>
+          <p class="card-item">Confluence</p>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="card-title">Communication</h3>
+          <p class="card-item">Microsoft Teams</p>
+          <p class="card-item">Slack</p>
+          <p class="card-item">Discord</p>
+        </div>
       </div>
       <div class="nextSection">
         <a href="#contactMe">
@@ -264,17 +285,24 @@
       </p>
 
       <form novalidate>
-        <label for="name">Name</label>
-        <input id="name" type="text" pattern="" />
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" pattern="" />
+        </div>
 
-        <label for="email">Email</label>
-        <input id="email" type="email" />
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" />
+        </div>
 
-        <label for="Company">Company</label>
-        <input id="Company" type="text" pattern="" />
-
-        <label for="message">Message</label>
-        <input id="message" type="textarea" pattern="" />
+        <div class="input-group">
+          <label for="Company">Company</label>
+          <input id="Company" type="text" pattern="" />
+        </div>
+        <div class="input-group">
+          <label for="message">Message</label>
+          <input id="message" type="textarea" pattern="" />
+        </div>
 
         <input type="submit" />
       </form>
