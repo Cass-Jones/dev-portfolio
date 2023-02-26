@@ -39,8 +39,21 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
+}
+
+section.sub-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-evenly;
 }
 
 button {
@@ -70,6 +83,23 @@ button:hover {
   to {
     bottom: 20px;
   }
+}
+/*Card Deck Styles */
+.project-deck {
+  max-width: 1440px;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  gap: 15px;
+}
+
+.project-deck .project-card {
+  padding: 16px;
+  max-width: 400px;
+  border: 1px solid black;
+  box-shadow: #0d0d0d 0 15 15;
 }
 
 /* Footer styling */
